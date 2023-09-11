@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+</head>
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        
+      }
+    .custom-input {
+    height: 75px;
+      }  
+    .center{
+        text-align: center;
+      }
+    .col{
+        color: blue;
+    }  
+    label{
+        font-weight: bold;
+    }
+
+    </style>
+<body>
+    <table align="center">
+        <h1 align="center" class="col">Registration form</h1>
+        <form action="">
+            <tr>
+                <td class="center"><label>First Name</label></td>
+                <td><input type="text" size="55px"></td>
+            </tr>
+            <tr>
+                <td class="center"><label>Last Name</label></td>
+                <td width="400px"><input type="text" size="55px"></td>
+            </tr>
+            <tr>
+                <td class="center"><label>Email</label></td>
+                <td><input type="email" size="55px"></td>
+            </tr>
+            <tr>
+                <td class="center"><label>Password</label></td>
+                <td><input type="password" size="55px"></td>
+            </tr>
+            <tr>
+                <td class="center"><label>Re-enter Password</label></td>
+                <td><input type="password" size="55px"></td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="center"><label>Gender:</label></td>
+                <td><input type="radio">Male</td>
+            </tr>
+            <tr>
+                <td><input type="radio">Female</td>
+            </tr>
+            <tr>
+                <td class="center"><label>Age:</label></td>
+                <td><input type="text" size="55px"></td>
+            </tr>
+            <tr>
+                <td class="center"><label>Phone Number</label></td>
+                <td><input type="tel" size="55px"></td>
+            </tr>
+            <tr>
+                <td class="center"><label>Address</label></td>
+                <td ><input type="text" size="55px" class="custom-input"></td>
+            </tr>
+            <tr>
+                <td class="center"><label>State</label></td>
+                <td><input type="text" size="55px"></td>
+            </tr>
+            <tr>
+                <td class="center"><label>Country</label></td>
+                <td>
+                    <select name="con">
+                        <option value="choose">Choose your country</option>
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="spain">Spain</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="center"><label>Languages Known</label></td>
+                <td>
+                    <input type="checkbox">English
+                    <input type="checkbox">Kannada
+                    <input type="checkbox">Hindi
+                    <input type="checkbox">Telugu
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" checked>Hereby I declare all the given details are true</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">Login in to <a href="https://ethnus.com">Ethus </a>website</td>
+            </tr>
+        </form>
+    </table>
+    <p align="center"><input type="button" value="Register"></p>
+</body>
+</html>
